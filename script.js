@@ -43,7 +43,7 @@ function changeActivePlayer() {
     const random = Math.trunc(Math.random() * 6 + 1)
 
     //display number on dice
-    dice.src = `/dice${random}.png`
+    dice.src = `dice${random}.png`
     
     // if num = 1 change player, if not, add to current score
     if (random !== 1) {
